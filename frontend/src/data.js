@@ -1,10 +1,9 @@
-// Replace this content with your personal information.
-// The structure is intentionally kept separate from the components.
+//My details
 
 export const profile = {
-  name: 'YOUR NAME',
-  logo: 'YOUR NAME',
-  intro: "Hi! I'm YOUR NAME - Based in India",
+  name: 'Rohan Mehra',
+  logo: 'Rohan Mehra',
+  intro: "Hi! I'm Rohan Mehra - Based in India",
   heroPrefix: 'Full Stack Developer &',
   heroRoles: ['Web Developer', 'MERN Developer', 'Cloud Enthusiast'],
   heroDescription:
@@ -12,29 +11,29 @@ export const profile = {
   aboutTitle: 'About Me: MCA student who enjoys web development',
   aboutText:
     'I enjoy building useful products, learning new technologies, and turning ideas into clean, responsive web experiences.',
-  email: 'YOUR_EMAIL@gmail.com',
-  phone: '+91 YOUR PHONE',
-  location: 'YOUR CITY, INDIA',
+  email: 'rmehra1706@gmail.com',
+  phone: '+91 9528671457',
+  location: 'Uttarakhand, India',
   socials: {
-    github: 'https://github.com/YOUR_USERNAME',
-    linkedin: 'https://www.linkedin.com/in/YOUR_USERNAME/',
-    instagram: 'https://www.instagram.com/YOUR_USERNAME/'
+    github: 'https://github.com/rohanmehra67',
+    linkedin: 'https://www.linkedin.com/in/rohan-mehra-0255a42bb/',
+    instagram: 'https://www.instagram.com/ilnn06950/'
   }
 }
 
 export const projects = [
   {
     number: '01',
-    title: 'NoteHarbor',
-    description: 'MERN notes application with authentication, CRUD, AI summarization and an admin/statistics dashboard.',
-    image: '/images/project-1.webp',
+    title: 'Safe Mate',
+    description: 'Simple password generator',
+    image: '/images/project-1.png',
     tags: ['React', 'Node.js', 'MongoDB', 'Gemini API'],
-    link: '#'
+    link: 'https://safe-mate-eta.vercel.app/'
   },
   {
     number: '02',
     title: 'Project Two',
-    description: 'Replace this project with one of your strongest portfolio projects.',
+    description: 'coming soon',
     image: '/images/project-2.webp',
     tags: ['React', 'Tailwind'],
     link: '#'
@@ -42,7 +41,7 @@ export const projects = [
   {
     number: '03',
     title: 'Project Three',
-    description: 'Replace this project with another project that demonstrates your development skills.',
+    description: 'coming soon',
     image: '/images/project-3.webp',
     tags: ['Node.js', 'MongoDB'],
     link: '#'
@@ -50,7 +49,7 @@ export const projects = [
   {
     number: '04',
     title: 'Project Four',
-    description: 'Optional fourth project for the work carousel.',
+    description: 'coming soon',
     image: '/images/project-4.webp',
     tags: ['Full Stack'],
     link: '#'
@@ -58,7 +57,7 @@ export const projects = [
   {
     number: '05',
     title: 'Project Five',
-    description: 'Optional fifth project for the work carousel.',
+    description: 'coming soon',
     image: '/images/project-5.webp',
     tags: ['Web'],
     link: '#'
@@ -98,21 +97,25 @@ export const testimonials = [
   {
     rating: '5.0',
     text: 'A disciplined developer who communicates clearly and delivers polished work on time.',
-    name: 'Client Name'
+    name: 'John Cena',
+    image: '/images/john-cena.jpeg'
   },
   {
     rating: '5.0',
     text: 'Professional, responsive and focused on building a useful final product.',
-    name: 'Client Name'
+    name: 'Brad Pitt',
+    image: '/images/brad-pitt.jpg'
   },
   {
     rating: '5.0',
     text: 'Good communication throughout the project and attention to the requested details.',
-    name: 'Client Name'
+    name: 'Chris Evans',
+    image: '/images/chris-evans.webp'
   },
   {
     rating: '5.0',
     text: 'A smooth project experience with a strong focus on quality and usability.',
-    name: 'Client Name'
+    name: 'Reacher',
+    image: '/images/reacher.webp'
   }
 ]

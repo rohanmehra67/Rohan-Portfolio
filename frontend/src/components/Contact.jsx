@@ -53,7 +53,7 @@ export default function Contact() {
           </label>
           <label>
             Message
-            <textarea name="message" value={form.message} onChange={update} placeholder="Tell me about your project..." required minLength={10} rows="5" />
+            <textarea name="message" value={form.message} onChange={update} placeholder="write a message" required minLength={10} rows="5" />
           </label>
           <button className="send-button" disabled={sending}>
             {sending ? 'Sending...' : <>Send Message <Send size={16} /></>}

@@ -63,7 +63,7 @@ export default function Hero() {
           className="hero-visual"
         >
           <div className="portrait-frame">
-            <img src="/images/profile.webp" alt={`${profile.name} portrait`} />
+            <img src="/images/profile.jpeg" alt={`${profile.name} portrait`} />
           </div>
 
           <button className="circle-explore" onClick={scrollToAbout} aria-label="Explore portfolio">

@@ -11,6 +11,7 @@ export default function Work() {
         {projects.map((project, index) => (
           <motion.a
             href={project.link}
+            target='_blank'
             key={project.number}
             className="project-card"
             initial={{ opacity: 0, y: 30 }}
