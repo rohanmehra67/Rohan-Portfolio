@@ -1,5 +1,5 @@
 {
-  "name": "bianca-portfolio-backend",
+  "name": "rohan-portfolio-backend",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -12,6 +12,6 @@
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "mongoose": "^8.18.1",
-    "nodemailer": "^7.0.6"
+    "nodemailer": "^10.0.13"
   }
 }

@@ -1,6 +1,5 @@
 # Rohan Portfolio — React + Tailwind + Node + MongoDB !!!
 
-A React/Vite/Tailwind recreation of the supplied Bianca portfolio design.
 
 ## Stack
 
